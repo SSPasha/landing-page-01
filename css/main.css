@@ -414,7 +414,7 @@ h4 {
 	justify-content: space-around;
 	align-items: flex-end;
 
-	/*border: 1px solid green;*/
+	border: 1px solid green;
 }
 
 .contact-form-list_block {
@@ -422,7 +422,7 @@ h4 {
 	flex-direction: column;
 	background: url(../img/arrow.png) no-repeat left top;
 	
-	/*border: 1px dotted white;*/
+	border: 1px dotted white;
 }
 
 .contact-form-list_block label{
