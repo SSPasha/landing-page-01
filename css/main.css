@@ -1,0 +1,369 @@
+body {
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    color: #282828;
+}
+
+p {
+    font-weight: 500;
+    letter-spacing: .64px;
+    opacity: .66;
+    color: #282828;
+}
+
+
+.p-margin {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 75px;
+    margin-top: 0;
+    margin-bottom: 43px;
+    letter-spacing: 2.4px;
+    color: #2c2c2d;
+}
+
+h1 span {
+    display: block;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-top: 0;
+    margin-bottom: 45px;
+    letter-spacing: 1.6px;
+    color: #2d2d2e;
+}
+
+h2 span.dots {
+    letter-spacing: 1.6px;
+    color: #ff6d6d;
+}
+
+h3 {
+    font-weight: 500;
+    margin-bottom: 16px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    color: #ff6d6d;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: .88px;
+}
+
+/* ======================== Banner ===========================*/
+.banner {
+    overflow: hidden;
+    text-align: center;
+    background: url('../img/title.png')  no-repeat center top;
+    background-size: cover;
+}
+
+.wrapper {
+    /*width: 100%;*/ /* нужно будет разобраться с этим */
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 40px;
+    border: 1px solid red;
+}
+
+.banner-block {
+    display: inline-block;
+    margin: 220px auto;
+    padding: 0 40px;
+    border: 1px solid black;
+}
+
+.banner-video {
+    display: block;
+    margin-bottom: 39px;
+}
+
+.btn-video {
+    display: flex;
+    width: 59px;
+    height: 59px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #7f84a1;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_play {
+    margin-left: 3px;
+}
+
+.btn {
+    font-weight: 400;
+    display: inline-block;
+    padding: 15px 45px 13px;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #ff6d6d;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #ec1624;
+}
+
+.banner-block p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 15px 0 0;
+    letter-spacing: .56px;
+    opacity: .6;
+}
+
+/* ======================== Description ===========================*/
+
+#description {
+    display: flex;
+}
+
+.description-block {
+    display: flex;
+    height: 724px;
+	
+    align-items: center;
+}
+
+.description-left {
+	margin-left: 0;
+    max-width: 560px;
+    border: 1px solid black;
+}
+
+.description-right {
+    width: 45%;
+    max-width: 650px;
+    height: 724px;
+    border: 1px solid grey;
+    background: url(../img/rectangle1.png) no-repeat left bottom #ebebeb;
+}
+
+/*.rectangle1 {
+	width: 0;
+	height: 0;
+	border-bottom: 650px solid #ff6d6d;
+	border-left: 650px solid transparent;
+	border-right: 0px solid transparent;
+	z-index: 1;
+}*/
+
+/* ======================== Features ===========================*/
+
+.features {
+    overflow: hidden; /* нужно как то убрать это*/
+}
+
+.features-heading {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.features-heading_item_2 {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.features-list {
+    display: flex;
+    margin-top: 45px;
+
+    justify-content: space-between;
+}
+
+.features-list_item {
+    width: 360px;
+    padding: 0 20px;
+    text-align: center;
+    border: 1px dotted black;
+}
+
+.features-list_item:hover {
+    background-color: #ebebeb;
+}
+
+.features-list_item h4 {
+    margin: 30px 0 19px;
+}
+
+.features-bottom {
+    position: absolute;
+    right: 50px;
+    margin-top: 70px;
+}
+
+/* ======================== Design ===========================*/
+
+.design {
+    height: 550px;
+    margin-top: 183px; /*изменить после удаления бордеров*/
+}
+
+.design-block {
+    display: flex;
+    height: 550px;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.design-block_leftItem {
+    max-width: 50%;
+    border: 1px dotted purple;
+}
+
+.design-block_leftItem--img img {
+    max-width: 100%;
+}
+
+.backgrnd {
+    background: url(../img/rectangle2.png) no-repeat left bottom;
+}
+
+.design-block_rightItem {
+    max-width: 492px;
+    border: 1px dotted purple;
+}
+
+.design-block_rightItem h3,
+.design-block_rightItem p {
+    margin: 0;
+    padding: 0;
+}
+
+.design-block_rightItem h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* =========================== Team ===========================*/
+
+.team {
+    height: 648px;
+    background: url(../img/team.png) no-repeat top center #000;
+    background-size: cover;
+}
+
+.team-list {
+    display: flex;
+    margin: 105px 0 80px;
+
+    justify-content: space-between;
+}
+
+.team-list_item {
+    width: 340px;
+    text-align: center;
+}
+
+.team-list_item_photo {
+    width: 76px;
+    height: 76px;
+    margin: 0 auto 25px;
+    border: 2px solid #1d1e24;
+    background-color: #4e4e5e;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: .88px;
+    color: #fff;
+}
+
+.pos {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: #ff6d6d;
+}
+
+.info {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 26px;
+    margin: 12px 0 0;
+    letter-spacing: .64px;
+    opacity: .66;
+    color: #fff;
+}
+
+.team-list-client {
+    width: 80%;
+    max-width: 963px;
+    max-height: 85px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.team-list-client_icon {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* =========================== Work ===========================*/
+
+.work {
+	max-height: 754px;
+	background-color: #f6f5f3;
+}
+
+.work-content {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.work-text {
+	padding: 105px 0 93px;
+	max-width: 660px;
+	margin: 0 auto;
+
+	border: 1px solid pink;
+}
+
+.work-text h3, .work-text p {
+	margin: 0;
+	padding: 0;
+}
+
+.work-text h2 {
+	padding-top: 15px;
+	padding-bottom: 48px;
+	margin: 0;
+}
+
+.work-img {
+	display: flex;
+	max-width: 820px;
+	max-height: 375px;
+	margin: 0 auto;
+}
+
+.work-img img {
+	width: 100%;
+	height: 100%;
+}
