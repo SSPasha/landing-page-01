@@ -440,6 +440,7 @@ h4 {
     padding-bottom: 40px;
 }
 
+
 .form-control {
     font-family: 'Exo';
     font-size: 15px;
@@ -447,7 +448,7 @@ h4 {
     text-transform: uppercase;
     letter-spacing: 0.64px;
     width: 210px;
-    height: 47px;
+    height: 49px;
     border-radius: 3px;
     border: 1px solid #ffffff;
     background-color: #454c76;
@@ -456,6 +457,7 @@ h4 {
 
 .form-control:hover {
     border: 2px solid #ffffff;
+    padding: 0 14px;
 }
 
 .btn-2 {
@@ -504,6 +506,10 @@ h4 {
 .placeholder-class:-moz-placeholder           {color:#f6f5f3;}
 .placeholder-class:-ms-input-placeholder      {color:#f6f5f3;}
 
+.placeholder-class2::-webkit-input-placeholder {color:#000000;}
+.placeholder-class2::-moz-placeholder          {color:#000000;}
+.placeholder-class2:-moz-placeholder           {color:#000000;}
+.placeholder-class2:-ms-input-placeholder      {color:#000000;}
 
 /* ========================= Footer ============*/
 
@@ -592,4 +598,63 @@ h4 {
 .list-support_item a:hover {
     color: #000;
     opacity: 1;
+}
+
+.last h4 {
+    padding-bottom: 23px;
+}
+
+.form-control2  {
+    width: 263px;
+    height: 49px;
+    border-radius: 3px;
+    border: 1px solid #4e4e5e;
+    background-color: #f6f6f6;
+    opacity: 0.4;
+
+    color: #000000;
+    font-family: 'Exo';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 75px;
+    text-transform: uppercase;
+    letter-spacing: 0.64px;
+    padding: 0 15px 0 15px;
+}
+
+.form-control2:hover {
+    border: 2px solid #000000;
+    padding: 0 14px;
+}
+
+.placeholder-class2 {
+    opacity: 0.4;
+    color: #000000;
+}
+
+.social {
+    padding-top: 18px;
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    flex: 1;
+}
+
+.social_link {
+    font-size: 21px;
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: middle;
+    opacity: 0.4;
+    color: #000000;
+}
+
+.social_link:last-child {
+    margin-right: 0;
+}
+
+.social_link:hover {
+    opacity: 0.4;
+    color: #ff6d6d;
 }
